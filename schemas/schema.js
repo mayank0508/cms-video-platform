@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import video from './video';
 import account from './account';
 import interaction from './interaction';
+import commenter from './commenter';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -17,6 +18,7 @@ export default createSchema({
     /* Your types here! */
     video,
     account,
-    interaction
+    interaction,
+    commenter
   ])
 });

@@ -25,12 +25,12 @@ export default {
       name: 'comment',
       title: 'Comment',
       type: 'string'
-    }
-    // {
-    //   name: 'author',
-    //   title: 'Author',
-    //   type: 'commentor',
-    // },
+    },
+    {
+      name: 'author',
+      title: 'Author',
+      type: 'commenter',
+    },
   ],
   preview: {
     select: {

@@ -52,7 +52,7 @@ export default {
     //   name: 'author',
     //   title: 'Author',
     //   type: 'author',
-    // },
+   // },
     {
       name: 'interaction',
       title: 'Interaction',
