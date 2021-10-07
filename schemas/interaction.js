@@ -27,8 +27,8 @@ export default {
       type: 'string'
     },
     {
-      name: 'author',
-      title: 'Author',
+      name: 'commenter',
+      title: 'Commenter',
       type: 'commenter',
     },
   ],

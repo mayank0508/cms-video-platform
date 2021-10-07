@@ -48,11 +48,11 @@ export default {
       },
       validaton: Rule => Rule.required().warning('A Slug is required')
     },
-    // {
-    //   name: 'author',
-    //   title: 'Author',
-    //   type: 'author',
-   // },
+    {
+      name: 'author',
+      title: 'Author',
+      type: 'author'
+    },
     {
       name: 'interaction',
       title: 'Interaction',
