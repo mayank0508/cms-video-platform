@@ -17,8 +17,25 @@ export default {
             title: 'Dislike',
             value: 'dislike'
           }
-        ]
+        ],
+        layout: 'radio'
       }
+    },
+    {
+      name: 'comment',
+      title: 'Comment',
+      type: 'string'
     }
-  ]
+    // {
+    //   name: 'author',
+    //   title: 'Author',
+    //   type: 'commentor',
+    // },
+  ],
+  preview: {
+    select: {
+      title: 'sentiment',
+      subtitle: 'comment'
+    }
+  }
 };
