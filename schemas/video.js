@@ -53,11 +53,11 @@ export default {
     //   title: 'Author',
     //   type: 'author',
     // },
-    // {
-    //   name: 'interaction',
-    //   title: 'Interaction',
-    //   type: 'array',
-    //   of: [{ type: 'interaction' }]
-    // }
+    {
+      name: 'interaction',
+      title: 'Interaction',
+      type: 'array',
+      of: [{ type: 'interaction' }]
+    }
   ]
 };
