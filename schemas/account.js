@@ -37,12 +37,12 @@ export default {
       name: 'followers',
       title: 'Followers',
       type: 'number'
+    },
+    {
+      name: 'videos',
+      title: 'Videos',
+      type: 'array',
+      of: [{ type: 'videoReference'}]
     }
-    // {
-    //   name: 'videos',
-    //   title: 'Videos',
-    //   type: 'array',
-    //   of: [{ type: 'video'}]
-    // }
   ]
 };

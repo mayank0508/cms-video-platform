@@ -16,8 +16,8 @@ export default {
       validaton: Rule => Rule.required().warning('An ID is required')
     },
     {
-      name: 'asset',
-      title: 'Asset',
+      name: 'videoAsset',
+      title: 'Video Asset',
       type: 'mux.video'
     },
     {

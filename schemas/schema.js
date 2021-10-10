@@ -8,6 +8,8 @@ import account from './account';
 import interaction from './interaction';
 import commenter from './commenter';
 import author from './author';
+import videoReference from './videoReference';
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -21,6 +23,7 @@ export default createSchema({
     account,
     interaction,
     commenter,
-    author
+    author,
+    videoReference
   ])
 });
